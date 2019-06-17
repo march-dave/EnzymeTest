@@ -8,4 +8,4 @@
 6) 여기에 enzyme 의 shallow 를 쓴다.
 7) jest.useFakeTimers();
  Date.now = jest.fn( () => 11111 );
- 이렇게 설정 하면  Date.now는 랜덤하게 생성 되는것이 아니라 jest.fn의 내가 설정한 값으로 이용된다.
+ 이렇게 설정 하면  Date.now는 랜덤하게 생성 되는것이 아니라 jest.fn의 내가 설정한 값으로 설정된다.
